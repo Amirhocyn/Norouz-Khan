@@ -11,9 +11,13 @@ PrefabInstance:
       propertyPath: health
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2837994294609232604, guid: 135357f95b89b994d854add3d9896575, type: 3}
+      propertyPath: healthPoints
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4939464466239261217, guid: 135357f95b89b994d854add3d9896575, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: 'Enemy '
       objectReference: {fileID: 0}
     - target: {fileID: 4939464466239261221, guid: 135357f95b89b994d854add3d9896575, type: 3}
       propertyPath: m_RootOrder
@@ -29,7 +33,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4939464466239261221, guid: 135357f95b89b994d854add3d9896575, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 4939464466239261221, guid: 135357f95b89b994d854add3d9896575, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71,6 +75,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4939464466239261217, guid: 135357f95b89b994d854add3d9896575, type: 3}
   m_PrefabInstance: {fileID: 364237099972101308}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &4281659291620981222
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720484294257020573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &-6311935009668544860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,20 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b10c4f2e165384e439f7bf66f9f22403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &4281659291620981222
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4720484294257020573}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4612130158871302609
 PrefabInstance:
   m_ObjectHideFlags: 0
